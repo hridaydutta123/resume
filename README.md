@@ -1,5 +1,7 @@
-[![Example](https://img.shields.io/badge/Exemple-pdf-blue.svg)](https://github.com/hridaydutta123/resume/resume_HridoySankarDutta.pdf)
-# resume
-This is my resume.
 
-Compile it using pdftex.
+## Preview
+![Image of Resume PDF](https://github.com/hridaydutta123/resume/blob/master/example.png)
+
+## How to generate PDF?
+* Compile it using pdftex.
+* Import the project in TexMaker/Overleaf and click on Quick Build/Generate PDF.
