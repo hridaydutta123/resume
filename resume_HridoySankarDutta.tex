@@ -21,7 +21,22 @@
             anchorcolor = black]{hyperref}
 \setlength{\textwidth}{6.5in} % Text width of the document
 \setlength{\textheight}{720pt}
+\usepackage{tcolorbox}
 
+
+\newtcbox{\badge}[1][red]{
+  on line, 
+  arc=2pt,
+  colback=#1!50!black,
+  colframe=#1!50!black,
+  fontupper=\color{white},
+  boxrule=1pt, 
+  boxsep=0pt,
+  left=6pt,
+  right=6pt,
+  top=2pt,
+  bottom=2pt
+}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -49,8 +64,7 @@
 \textbf{Github:} \url{https://github.com/hridaydutta123} \\
 \textbf{DBLP:} \url{https://tinyurl.com/hsd-dblp} \\
 \textbf{Google Scholar:} \url{https://tinyurl.com/hsd-google-scholar} \\
-\textbf{LinkedIn:} \url{https://tinyurl.com/hsd-linkedin} \\
-
+\textbf{LinkedIn:} \url{https://tinyurl.com/hsd-linkedin}
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
@@ -64,9 +78,6 @@ University of Cambridge
 \emph{Cambridge Cybercrime Centre \\
 University of Cambridge
 } \\
-\\
-\textbf{Short-Term Scholar, George Mason University} \hfill June 2019 - August 2019\\
-\emph{Supervisor: Dr. Hemant Purohit,  Associate Professor, Information Sciences \& Technology Department \\ George Mason University (GMU)}  \\
 \\
 \textbf{Assistant Project Engineer, IIT Guwahati} \hfill August 2014 - April 2015 \\
 Project Title: \textit{Developing Text to Speech System in Assamese Language Phase II} \\
@@ -116,7 +127,7 @@ Supervisor: Prof. S.R.M.Prasanna, Professor, Dept. of EEE, Indian Institute of T
 %---------------------------------------------------------------------------------------
 
 \section{Papers under review/Working papers}
- \\ ** - Equal contribution
+ \\ \textbf{*} - Equal contribution
 \begin{itemize}[leftmargin=*]
 \item Luis Adán Saavedra del Toro*,  \textbf{Hridoy Sankar Dutta*}, Alastair Beresford and Alice Hutchings.  ModZoo: A Large-Scale Study of Modded Android Apps and their Markets.
 \item Luis Adán Saavedra del Toro*,  \textbf{Hridoy Sankar Dutta*}, Alastair Beresford and Alice Hutchings.  Surveying Android and iOS Modded App Market Operators and Developers.
@@ -194,7 +205,7 @@ Supervisor: Prof. S.R.M.Prasanna, Professor, Dept. of EEE, Indian Institute of T
 %	OTHER EXPERIENCES SECTION
 %----------------------------------------------------------------------------------------
 \section{Other Experiences}
-\textbf{Co-founder,  Assam AI Initiative} \\
+\textbf{Co-founder,  \href{https://aaii-axom.github.io/}{Assam AI Initiative (AAII)}} \\
 \emph{A non-profit initiative to promote various scopes of AI} \hfill Feb 2021 - Present \\
 \\
 \textbf{Visiting Researcher, TU Munich} \\
@@ -202,6 +213,9 @@ Supervisor: Prof. S.R.M.Prasanna, Professor, Dept. of EEE, Indian Institute of T
 \\
 \textbf{Visiting Researcher, Cardiff University} \\
 \emph{Supervisor: Prof. Pete Burnap \\ Professor, School of Computer Science and Informatics, Cardiff University} \hfill March 2019,  March 2020 \\
+\\
+\textbf{Short-Term Scholar, George Mason University} \hfill June 2019 - August 2019\\
+\emph{Supervisor: Dr. Hemant Purohit,  Associate Professor, Information Sciences \& Technology Department \\ George Mason University (GMU)}  \\
 \\
 \textbf{Student Researcher, ForkIT} \\
 \emph{Supervisor: {Prof. Subrata Nandi, Dept. of CSE, NIT Durgapur} \& \\ {Dr. Sujoy Saha, Dept. of CSE, NIT Durgapur}} \hfill May 2016 - June 2017 \\
@@ -229,7 +243,6 @@ Worked on the Research Topic "Hierarchical topology adaptation for distributed c
 \emph{Role: Honors Thesis Advisor \\Supervisee: Quincy Taylor \\ Project Title: Analyzing Online Media Platforms for Hacktivist Group \\Organization and Proliferation} \hfill January 2023 -  March 2023 \\ \\
 \textbf{Ahmedabad University India} \\ 
 \emph{Role: Thesis Supervisor \\ Supervisee: Parth Mitesh Shah \\ Project Title: Developing Language-Agnostic thumbnail embeddings\\for YouTube videos} \hfill January 2023 -  April 2023 \\
-\\
 %----------------------------------------------------------------------------------------
 %	Selected Projects Section
 %----------------------------------------------------------------------------------------
@@ -241,9 +254,9 @@ All projects are available on git : \url{https://www.github.com/hridaydutta123}
 
  \item \textbf{\href{https://github.com/hridaydutta123/Assamese2Vec}{Assamese2Vec}} - An open source project for modeling the Assamese language.
 
- \item \textbf{\href{https://github.com/hridaydutta123/awesome-twitter-tools}{Awesome Twitter Tools}} - A curated list of tools, datasets, research papers and browser extensions related to Twitter.
-
- \item \textbf{\href{https://github.com/hridaydutta123/the-youtube-scraper}{The YouTube Scraper}} - Download YouTube video description and video comments without using the YouTube API.
+ \item \textbf{\href{https://github.com/hridaydutta123/awesome-twitter-tools}{Awesome Twitter Tools}} - A curated list of tools, datasets, research papers and browser extensions related to Twitter. 
+ 
+ \item \textbf{\href{https://github.com/hridaydutta123/the-youtube-scraper}{The YouTube Scraper}} - Download YouTube video description and video comments without using the YouTube AP I.
 
  \item \textbf{\href{https://github.com/hridaydutta123/collusive-user-detection-tool}{Collusive User Detection Tool}} - A tool for detection of collusive users in online social networks.
 
@@ -260,24 +273,24 @@ All projects are available on git : \url{https://www.github.com/hridaydutta123}
 \section{Achievements and Awards}
 \begin{itemize}[leftmargin=*]
 \item Awarded DAAD AInet fellowship 2023.
-\item Affiliated Post Doctoral Membership, Clare College, University of Cambridge.
+\item Affiliated Postdoctoral Member, Clare College, University of Cambridge.
 \item Member of Trinity College Postdoctoral Society,  University of Cambridge.
  \item Awarded ICWSM 2022 Virtual scholarship.
  \item Awarded ICWSM 2021 scholarship for Underrepresented Groups Program.
  \item Selected as a Rising Star in Data Science by the Center for Data and Computing (CDAC), University of Chicago.
  \item Awarded 3rd prize at Ninth IDRBT Doctoral Colloquim IDC 2019.
  \item Awarded Student Travel Grant to attend CODS COMAD 2019.
- \item Grand Challenge Grade \textbf{A} winner at International Symposium on Embedded Devices (ISED) 2016 at IIT Patna.
- \item Came \textbf{1st Runners Up} in Startup Weekend, Kolkata (5-7th August, 2016).
+ \item Grand Challenge Grade A winner at International Symposium on Embedded Devices (ISED) 2016 at IIT Patna.
+ \item Came 1st Runners Up in Startup Weekend, Kolkata (5-7th August, 2016).
  \item Media Coverage of our Group in a local daily: \url{https://tinyurl.com/news-coverage-disarm}
- \item Won \textbf{3rd Prize in Coding Competition} at Techniche 2012 (IIT Guwahati Technical Fest Coding Event).
+ \item Won 3rd Prize in Coding Competition at Techniche 2012 (IIT Guwahati Technical Fest Coding Event).
  \item Attended NASSCOM Product Conclave-2016 as Student Researcher of ForkIT.
- \item Rank of \textbf{3} in Master of Technology and Rank of \textbf{7} in Bachelor of Technology.
+ \item Rank of 3 in Master of Technology and Rank of 7 in Bachelor of Technology.
  \item Secured 10/10 SGPA in M.Tech (3rd \& 4th Semester).
  \item Secured 10/10 SGPA in B.Tech (6th, 7th \& 8th Semester).
- \item GATE Qualified (2016) – \textbf{Gate Score : 488 (Rank: 4370) }.
- \item GATE Qualified (2015) – \textbf{Gate Score : 441 (Rank: 6675) }.
- \item Recipient of GATE Scholarship (2014) – \textbf{Gate Score : 582 (Rank: 2139) }.
+ \item GATE Qualified (2016) – Gate Score : 488 (Rank: 4370).
+ \item GATE Qualified (2015) – Gate Score : 441 (Rank: 6675).
+ \item Recipient of GATE Scholarship (2014) – Gate Score : 582 (Rank: 2139).
 
  \item Passed `A' level examination of National Cadet Crops (NCC).
  % \item Winner of Counter Strike Gaming Competition at Technoshine 2015, Technoshine 2016, Aarohan 2017 and Rectasy 2017 held at NIT Durgapur.
@@ -285,6 +298,7 @@ All projects are available on git : \url{https://www.github.com/hridaydutta123}
 
 \section{Professional Services}
 \begin{itemize}[leftmargin=*]
+\item ACM International Conference on Web Search and Data Mining (WSDM 2024) (Reviewer)
 \item Nature Scientific Reports (Reviewer).
 \item Dewald Roode Workshop on Information Systems Security Research (DRW 2023) (Reviewer).
 \item Special Interest Group on Information Retrieval (SIGIR 2023 Resource Track) (Reviewer).
@@ -342,9 +356,8 @@ All projects are available on git : \url{https://www.github.com/hridaydutta123}
 %----------------------------------------------------------------------------------------
 
 \section{Technical \hspace{2mm} Skills}
-\textbf{Strongest Areas} - Cybercrime, Data-driven Cybersecurity, Social Network Analysis, Data Mining, Applied Machine Learning, Web Mining, Natural Language Processing \& System Programming, Web Technology.  \\
+\textbf{Strongest Areas} - Cybercrime, Data-driven Cybersecurity, Social Network Analysis, Data Mining, Applied Machine Learning, Web Mining, Natural Language Processing \& System Programming. \\
 \textbf{Languages} - Python, Java, PHP, Dart, C++, UNIX Shell, HTML, CSS, JS, Ajax, Perl \\
-\textbf{Frameworks} - Twitter API Clients, NLTK, Sklearn, Gensim, Django, Flask, Flutter \\
 \textbf{Tools} - Git, Android Studio, Adobe Photoshop, JUnit, \LaTeX \\
 \textbf{Databases} - Firebase, MySQL, SQLite, MongoDB \\
 
@@ -358,9 +371,17 @@ All projects are available on git : \url{https://www.github.com/hridaydutta123}
 \textbf{Nationality:} Indian
 
 \section{References}
-Available on Request
+\section{References}
+\begin{itemize}[leftmargin=*]
+\item[] \textbf{Dr. Tanmoy Chakraborty}, Associate Professor, Dept. of Electrical Engineering (Computer Technology Group),  IIT Delhi
+\item[] \textbf{Prof. Alice Hutchings}, Professor, Dept. of CST, University of Cambridge
+\item[] \textbf{Prof. Ross Anderson}, Professor, Dept. of CST, University of Cambridge
 
+\end{itemize}
 
+%\item[] \textbf{Dr. Tanmoy Chakraborty} \textless \href{mailto:tanmoy@iiitd.ac.in}{tanmoy@iiitd.ac.in}\textgreater, Associate Professor, Dept. of Electrical Engineering (Computer Technology Group),  IIT Delhi
+%\item[] \textbf{Prof. Alice Hutchings} \textless \href{mailto:alice.hutchings@cl.cam.ac.uk}{alice.hutchings@cl.cam.ac.uk}\textgreater, Professor, Dept. of CST, University of Cambridge
+%\item[] \textbf{Prof. Ross Anderson} \textless \href{mailto:Ross.Anderson@cl.cam.ac.uk}{Ross.Anderson@cl.cam.ac.uk}\textgreater, Asst. Professor, Dept. of CST, University of Cambridge
 
 \end{resume}
 \end{document}
